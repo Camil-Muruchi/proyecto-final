@@ -1,0 +1,95 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+nav {
+  background-color: #61dafb;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+nav li {
+  cursor: pointer;
+  color: white;
+}
+
+/* Estilos para los botones de navegación */
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav li a:hover {
+  background-color: #45a8d1;
+}
+
+.carousel-container {
+}
+
+.button-container {
+  margin: 20px;
+}
+
+/* Estilos para el botón "Comprar ahora" */
+.button-container button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #45a8d1;
+}
+
+.custom-carousel {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+nav ul li a {
+  color: #ffffff;
+  background-color: #092b36ac;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #092b36ac;
+  text-decoration: none;
+}
+
